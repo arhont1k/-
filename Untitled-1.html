@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Мій сайт-візитка</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <section id="head">
+            <h1 class="main-title">Володмир</h1>
+            <p class="main-description">Віва і Вова два хлібороба </p>
+          </section>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Про мене</h2>
+            <p>Мене звати Володька, я прийшов сюди з 30-ї школи. У мене є 1 кішка. Мені подобається волейбол, компютерні ігри і консольні також. 
+               Я обожнюю хардкорну музику щоб аж вуха дзвиніли плюс ще меломан. 
+               Не палю і не п'ю, полюбляю спорт по більшій частині займаюсь на турніках та брусах</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Галерея</h2>
+            <div class="carousel">
+                <button class="left" onclick="prevImage()">&#10094;</button>
+                <div class="carousel-images">
+                    <img src="/img/img1.png" alt="Фото 1" class="active" />
+                    <img src="/img/img2.jpg" alt="Фото 2" />
+                    <img src="/img/img3.png" alt="Фото 3" />
+                    <img src="/img/img4.jpg" alt="Фото 4" />
+                    <img src="/img/img5.jpg" alt="Фото 5" />
+                    <img src="/img/img6.jpg" alt="Фото 6" />
+                    <img src="/img/img7.jpg" alt="Фото 7" />
+                    <img src="/img/img8.jpg" alt="Фото 8" />
+                    <img src="/img/img9.png" alt="Фото 9" />
+                    <img src="/img/img10.jpg" alt="Фото 10" />
+                </div>
+                <button class="right" onclick="nextImage()">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Мої навички</h2>
+            <ul class="skills-list">
+                <!-- Замість назв поставити фото мов програмування -->
+                <li class="skill">HTML</li>
+                <li class="skill">CSS</li>
+                <li class="skill">JavaScript</li>
+                <li class="skill">С++</li>
+                <li class="skill">Промт Інжінерія</li>
+            </ul>
+        </section>
+        
+        <section id="hobbi">
+            <h2>Мої захоплення та інтереси</h2>
+            <ul class="hobbi-list">
+                <li class="hobbi">Волейбол</li>
+                <li class="hobbi">Ігри</li>
+                <li class="hobbi">Музика</li>
+                <li class="hobbi">Спорт</li>
+            </ul>
+        </section>
+
+        <section id="social">
+            <h2>Соціальні мережі</h2>
+            <a href="https://www.tiktok.com/@arhont1k_?_t=ZM-8wYtwQEmjUW&_r=1">TikTok</a>
+            <a href="https://www.instagram.com/arhont_ik?igsh=M3ZvdmdoenFvcmto">Instagram</a>
+            <a href="t.me/smeshyr">Telegram</a>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
